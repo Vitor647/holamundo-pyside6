@@ -1,5 +1,5 @@
 Documentacion e instalacion en windows de Python:
-
+WINDOWS
 Descargar el instalador de Python desde https://www.python.org/
 
 Ejecutar el instalador y marcar la opcion de "Add Python to PATH"
@@ -10,6 +10,16 @@ Verificar si pip esta instalado: "pip --version"
 
 Si no se instalo usa: " python -m pip install"
 
+LINUX
+Instalacion python
+"sudo apt update && sudo apt install python3 -y
+
+Verificar instalacion : "python3 --version"
+
+verificar pip instalado : " pip3 --version"
+
+
+
 
 
 Creacion y Activacion de un Entorno Vitual:
@@ -17,8 +27,10 @@ Creacion y Activacion de un Entorno Vitual:
 Para crear un entorno creamos una carpeta donde instalarlo desde el terminal o en tu entorno de desarrollo
 
 Para crearlo usamos en windows: "python -m venv "nombre-entorno" "
+Para crearlo usamos en linux: "python3 -m venv "nombre-entorno" "
 
 Para activarlo usamos: " "nombre-entorno"\Scripts\activate "
+Para activarlo usamos: " source "nombre-entorno"/bin/activate "
 
 Para desactivar el comando: "deactivate"
 
@@ -44,6 +56,7 @@ sys.exit(app.exec())
 Ejecutar la aplicacion
 
 Usamos el comando python main.py en windows
+Usamos el comando python3 main.py en Linux
 
 
 
